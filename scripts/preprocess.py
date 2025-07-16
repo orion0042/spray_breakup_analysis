@@ -28,4 +28,3 @@ def preprocess_images(raw_dir, flat_dir, out_dir, num_images):
     # Remove intermediate flat_corrected dir
     import shutil
     shutil.rmtree(flatcor_dir)
-

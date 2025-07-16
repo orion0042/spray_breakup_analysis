@@ -22,4 +22,3 @@ def analyze_breakup(gray_dir, output_csv, px_per_mm, min_area, flip):
         writer = csv.writer(f)
         writer.writerow(['image', 'breakup_length_mm'])
         writer.writerows(results)
-
